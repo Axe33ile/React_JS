@@ -58,3 +58,7 @@ footer {
 .book {
   margin: 1rem;
 }
+
+.book img{
+  size:200px;
+}

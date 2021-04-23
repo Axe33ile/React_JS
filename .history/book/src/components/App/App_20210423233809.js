@@ -21,7 +21,7 @@ const App = () => {
       <Book
         imgsrc="https://pbs.twimg.com/profile_images/678198768660008960/ymtWhQi8_400x400.png"
         titleBook="abaab"
-        detail="kukumuku"
+        detail="asdasd"
       />
       <Book
         imgsrc="https://2ality.com/img/impatient-js.jpg"

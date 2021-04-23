@@ -9,6 +9,7 @@ import React from "react";
  *********************/
 
 const Book = (props) => {
+      const details = props.details;
   return (
     <div className="book">
       <img src={props.imgsrc} alt={props.alt} />
@@ -18,6 +19,15 @@ const Book = (props) => {
   );
 };
 
+Book.defaultProps = {
+  details: {
+    imgSrc: "http://i.pravatar.cc/200?img=20",
+    alt: "#",
+    name: "not specified",
+    phone: "not specified",
+    email: "",
+  },
+};
 
 export default Book;
 // in case some field is not sent to props,

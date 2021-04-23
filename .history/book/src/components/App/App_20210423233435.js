@@ -19,11 +19,9 @@ const App = () => {
     <div>
       <Header />
       <Book
-        imgsrc="https://pbs.twimg.com/profile_images/678198768660008960/ymtWhQi8_400x400.png"
+        imgsrc="https://2ality.com/img/impatient-js.jpg"
         titleBook="abaab"
-        detail="kukumuku"
-      />
-      <Book
+      />  <Book
         imgsrc="https://2ality.com/img/impatient-js.jpg"
         titleBook="abaab"
       />
