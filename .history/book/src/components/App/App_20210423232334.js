@@ -8,7 +8,7 @@ import React from "react";
 //import components
 import Header from "../header/Header";
 import Main from "../main/Main";
-import Book from "../book/Book";
+import Book from "../"
 
 /*****************************************
  * * COMPONENT
@@ -18,7 +18,6 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Book titleBook="abaab"/>
     </div>
   );
 };

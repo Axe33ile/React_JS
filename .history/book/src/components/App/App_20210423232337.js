@@ -18,7 +18,6 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Book titleBook="abaab"/>
     </div>
   );
 };
