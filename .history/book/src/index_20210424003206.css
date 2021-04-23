@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+/* postcss-normalize is installed on project creation */
+/* see https://create-react-app.dev/docs/adding-css-reset/ */
+@import-normalize; /* bring in normalize.css styles */
+/* @import 'normalize.css'; */
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgba(87, 87, 87, 0.589);
+  color: #333;
+}
+
+/****************************************
+ * * APP
+ *****************************************/
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: min(80%, 1000px);
+  margin: 0 auto;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+footer {
+  padding: 4em;
+  text-align: center;
+}
+
+.main {
+  flex: 1;
+}
+
+.main > p {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 330px;
+  max-width: 900px;
+  border: 1rem solid red;
+}
+
+.book {
+  
+  margin: 1rem;
+}
+
+.photo {
+  height: 250px;
+  width: 200px;
+}
